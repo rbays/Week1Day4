@@ -66,6 +66,7 @@ function Question(question,a,b,c,d,answer) {
 loadButton.addEventListener('click',loadQuiz,false);
 
 function loadQuiz(){
+	submitButton.style.display = "block";
 	
 	//pokemon quiz questions
 	pokemonQuiz.push(new Question("What is the original grass starter?","Squirtle","Bulbasaur","Caterpie","Blastoise","b"));
