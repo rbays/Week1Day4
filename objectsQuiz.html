@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>The Quiz Page</h1>
+	<h3>please select a quiz from the list below</h3>
+	<select id = "quizSelect" name="quizSelect">
+		<option value = "pokemon">Pokémon</option>
+		<option value = "movies">Movies</option>
+		<option value = "music">Music</option>
+	</select>
+	<button id = "loadQuiz">Load Quiz</button>
+	
+	<div id = "quizBox">
+	
+		<div id = "QuizBox">
+			<h3 id = "questionText">1. What is the answer?</h3>
+			<form id = "quizForm">
+				<input id = "q1a" type="radio" name = "answer" value = "a"><span id = "qaText">test A</span><br>
+				<input id = "q1b" type="radio" name = "answer" value = "b"><span id = "qbText">test B</span><br>
+				<input id = "q1c" type="radio" name = "answer" value = "c"><span id = "qcText">test C</span><br>
+				<input id = "q1d" type="radio" name = "answer" value = "d"><span id = "qdText">test D</span><br>
+			</form>
+			
+		</div>
+		
+		
+		<button id = "submit">Submit answers!</button>
+		<!--End of questions-->
+		
+		
+	</div><!--Closes the quiz box-->
+	
+	<div id = "results"></div>
+	
+	
+	
+<script src="objectsQuiz.js" type="text/javascript"></script>
+</body>
+</html>
