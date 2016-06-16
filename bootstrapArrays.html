@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name = "viewport" content="width=device-width,initial-scale=1">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel = "stylesheet" href = "bootstrapArrays.css" type="text/css">
+	
+	
+</head>
+<body>
+<div class = "container">
+	<div class = "jumbotron"><h1>Array tester</h1><h3>Do things with arrays</h3></div>
+	
+	<div class = "row">
+		<div class = "col-sm-3 col-sm-offset-3"><button id = "defaultArray">Generate default array 1-10</button></div>
+		
+	</div><!--Closing 1st row-->
+	
+	<div class = "row">
+		<div class = "col-sm-3"><input type = "text" class = "textBox" id = "input1" placeholder = "string for array"></div>
+		<div class = "col-sm-3"><input type = "text" class = "textBox" id = "input2" placeholder = "string for array"></div>
+		<div class = "col-sm-3"><input type = "text" class = "textBox" id = "input3" placeholder = "string for array"></div>
+		<div class = "col-sm-3"><button id = "createArray">Create Array</button>
+		</div>	
+	</div><!--Closing 2nd row -->
+	
+	<div class = "row">
+		<div class = "col-sm-3"><button id = "push">push</button></div>
+		<div class = "col-sm-3"><button id = "pop">pop</button></div>
+		<div class = "col-sm-3"><button id = "shift">shift</button></div>
+		<div class = "col-sm-3"><button id = "unshift">unshift</button></div>
+	</div><!--Closing 3rd row-->
+	<div class = "row">	
+		<div class = "col-sm-3"><input type="text" class = "textBox" id = "indexInput" placeholder = "string for index"></div>
+		<div class = "col-sm-3"><input type = number class = "textBox"  id = "indexVal" placeholder = "index"></div>
+		<div class = "col-sm-3"><button id = "indexButton">add at index</button></div>
+	</div><!--Closeing 4th row-->
+	<div class = "row">
+		<div class = "col-sm-3"><input type = "text" class = "textBox"  id = "countryIn" placeholder = "Enter a country"></div>
+		<div class = "col-sm-3"><button id = "countryButton">Check array for country index</button></div>
+	</div>
+	
+	<div class = "jumbotron" id = "output"><h1>Do something!</h1></div>
+	
+	
+</div><!--Closing container -->
+
+		<script src = "bootstrapArrays.js" type = "text/javascript"></script>
+</body>
+</html>
